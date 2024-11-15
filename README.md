@@ -26,8 +26,6 @@ CurrencyConverter Class
 The CurrencyConverter class extends JFrame and sets up the GUI components and event handling.
 
 Constructor:
-
-java
 public CurrencyConverter() {
     setTitle("Currency Converter");
     setSize(300, 150);
@@ -48,7 +46,6 @@ public CurrencyConverter() {
 }
 buildpanel Method:
 
-java
 private void buildpanel() {
     panel.add(HKD);
     panel.add(inputHkd);
@@ -59,7 +56,6 @@ private void buildpanel() {
 }
 CalcButtonListener Inner Class: This inner class handles the button click event to perform the currency conversion.
 
-java
 private class CalcButtonListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -79,8 +75,6 @@ private class CalcButtonListener implements ActionListener {
     }
 }
 main Method:
-
-java
 public static void main(String[] args) {
     new CurrencyConverter();
 }
