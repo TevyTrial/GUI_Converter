@@ -145,8 +145,6 @@ The `WeightConverter` class extends `JFrame` and sets up the GUI components and 
 ## LatinTranslator Description
 This project is a simple GUI-based Latin Translator built using Java Swing. The application translates Latin words "Sinister", "Dexter", and "Medium" to their English equivalents when the corresponding button is pressed.
 
-## Usage
-
 ### Code Explanation
 
 #### LatinTranslator Class
