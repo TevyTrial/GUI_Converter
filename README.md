@@ -3,8 +3,7 @@
 - A practice of aggregation, inheritance concepts
 - Design GUI for practical application
 
-CurrencyConverter.java
-## Description
+## CurrencyConverter Description
 This project is a simple GUI-based Currency Converter built using Java Swing. The application allows users to convert amounts between Hong Kong Dollars (HKD) and US Dollars (USD) based on a fixed conversion rate. The GUI provides fields for users to input either HKD or USD and displays the converted amount in the respective field.
 
 ## Features
@@ -88,9 +87,8 @@ The `CurrencyConverter` class extends `JFrame` and sets up the GUI components an
         new CurrencyConverter();
     }
     ```
-    
-WeightConverter.java 
-## Description
+
+## WeightConverter Description
 This project is a simple GUI-based Weight Converter built using Java Swing. The application allows users to convert weights from kilograms (kg) to pounds (lbs). The GUI provides a field for the user to input a weight in kilograms and displays the converted weight in pounds.
 
 ### Code Explanation
@@ -144,8 +142,7 @@ The `WeightConverter` class extends `JFrame` and sets up the GUI components and 
     }
     ```
 
-LatinTranslator.java
-## Description
+## LatinTranslator Description
 This project is a simple GUI-based Latin Translator built using Java Swing. The application translates Latin words "Sinister", "Dexter", and "Medium" to their English equivalents when the corresponding button is pressed.
 
 ## Usage
