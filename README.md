@@ -5,27 +5,15 @@
 
 
 CurrencyConverter.java
-Description
+## Description
 This project is a simple GUI-based Currency Converter built using Java Swing. The application allows users to convert amounts between Hong Kong Dollars (HKD) and US Dollars (USD) based on a fixed conversion rate. The GUI provides fields for users to input either HKD or USD and displays the converted amount in the respective field.
-
-Features
-- Convert HKD to USD and vice versa.
-- Simple and intuitive GUI with real-time conversion.
-- Error handling for empty input fields.
-
-Usage
-How to Use the Currency Converter
-Input Amount: Enter the amount in either the HKD or USD field.
-
-Calculate: Click the "Calculate" button to see the converted amount in the other field.
-If you enter an amount in the HKD field, the equivalent amount in USD will be displayed.
-If you enter an amount in the USD field, the equivalent amount in HKD will be displayed.
 
 Code Explanation
 CurrencyConverter Class
 The CurrencyConverter class extends JFrame and sets up the GUI components and event handling.
 
 Constructor:
+
 public CurrencyConverter() {
     setTitle("Currency Converter");
     setSize(300, 150);
@@ -75,6 +63,7 @@ private class CalcButtonListener implements ActionListener {
     }
 }
 main Method:
+
 public static void main(String[] args) {
     new CurrencyConverter();
 }
